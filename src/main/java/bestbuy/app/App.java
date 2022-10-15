@@ -1,4 +1,4 @@
-package uic.app;
+package bestbuy.app;
 
 public class App {
     public static void main(String[] args) {
