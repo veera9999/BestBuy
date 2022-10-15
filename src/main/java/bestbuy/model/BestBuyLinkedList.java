@@ -3,7 +3,7 @@ class BestBuyNode<T> {
     T data; //Data in the current node
     BestBuyNode next; //Reference for the next node
 
-    //Constructor which takes an int value which is stored as the data in this Node object.
+    //Constructor which takes an T value which is stored as the data in this Node object.
     BestBuyNode(T data) {
         this.data = data;
     }
