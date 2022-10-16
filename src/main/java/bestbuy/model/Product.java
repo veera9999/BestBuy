@@ -7,7 +7,7 @@ public class Product {
     private String productName;
     private String productCategory;
 
-    private String subCategory;
+    private String productSubCategory;
 
     private String productDescription;
     private double productPrice;
@@ -83,12 +83,12 @@ public class Product {
         this.discountPercent = discountPercent;
     }
 
-    public String getSubCategory() {
-        return subCategory;
+    public String getProductSubCategory() {
+        return productSubCategory;
     }
 
-    public void setSubCategory(String subCategory) {
-        this.subCategory = subCategory;
+    public void setProductSubCategory(String productSubCategory) {
+        this.productSubCategory = productSubCategory;
     }
 
     public Date getProductAddedDate() {
@@ -105,5 +105,10 @@ public class Product {
 
     public void setProductUpdatedDate(Date productUpdatedDate) {
         this.productUpdatedDate = productUpdatedDate;
+    }
+
+    @Override
+    public String toString() {
+       return productID +" "+ productSubCategory;
     }
 }
